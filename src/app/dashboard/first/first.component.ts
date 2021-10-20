@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-first',
   templateUrl: './first.component.html',
-  styleUrls: ['./first.component.css']
+  styleUrls: ['./first.component.scss']
 })
 export class FirstComponent implements OnInit {
 
@@ -14,5 +15,4 @@ export class FirstComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
